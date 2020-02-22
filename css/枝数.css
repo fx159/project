@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:#1b1b1f;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.header>span{
+    color:white;
+    position: absolute;
+    bottom: 10px;
+}
+.header-left{
+  left: 0;
+}
+.header-center{
+  left: 50%;    
+  transform: translate(-50%)
+}
+.header-right{
+  right: 0;
+}
+.container{
+    background-color: #fff;
+    background-image: url(../img/枝数背景.png);
+    background-size: 100%;
+    width: 100%;
+    height:100%;
+    overflow: auto;
+    position: relative;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-context{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.context-img{
+    width: 10%;
+    height: 100%;
+    line-height: 60px;
+}
+.context-img>img{
+    transform: scale(0.5);
+}
+.context-title{
+    width: 15%;
+    height: 100%;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.context-right{
+    height: 100%;
+    line-height: 35px;
+    color:#666666;
+}

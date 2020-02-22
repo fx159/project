@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* overflow: hidden; */
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:#1b1b1f;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.header>span{
+    color:white;
+    position: absolute;
+    bottom: 10px;
+}
+.header-left{
+  left: 0;
+}
+.header-center{
+  left: 50%;    
+  transform: translate(-50%)
+}
+.header-right{
+  right: 0;
+}
+.container{
+    background-color: #f0f0f0;
+    width: 100%;
+    height:100%;
+    overflow: auto;
+    position: relative;
+    font-size: 14px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.container-context1{
+    height: 100px;
+    width: 90%;
+    margin-top: 40px;
+    background-image: url(../img/优惠劵背景.png);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+.container-context{
+    height: 100px;
+    width: 90%;
+    margin-top: 20px;
+    background-image: url(../img/优惠劵背景.png);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.context-left{
+    width: 30%;
+    height: 60%;
+    box-sizing: border-box;
+    line-height: 70px;
+    border-right: 1px #a7a7a7 dotted;
+    position: relative;
+}
+.left-price{
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: -32%;
+    left: 8%;
+    font-size: 35px;
+    color: #ed8f03;
+}
+.left-font{
+    position: absolute;
+    top: 24%;
+    left: 16%;
+    color: #ed8f03;
+}
+.context-right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.right-left{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.left-one{
+   font-size: 19px;
+   font-weight: bold;
+}
+.left-two{
+    color: #666666;
+}
+.left-three{
+    color: #666666;
+}
+.right-right{
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 12px 0;
+    color: #ed8f03;
+}

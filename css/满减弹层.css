@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:#1b1b1f;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.header>span{
+    color:white;
+    position: absolute;
+    bottom: 10px;
+}
+.header-left{
+  left: 0;
+}
+.header-center{
+  left: 50%;    
+  transform: translate(-50%)
+}
+.header-right{
+  right: 0;
+}
+.container{
+    background-color: #000;
+    width: 100%;
+    height:100%;
+    position: relative;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottom-bottom{
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  
+}
+.bottom-bottom>svg{
+  transform: scale(0.6);
+}
+.container-bottom{
+  position: relative;
+}
+.container-center>div{
+   box-sizing: border-box;
+   padding: 10px 10px;
+   margin-left: 10px;
+}
+img{
+    width: 100%;
+    vertical-align: top;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.tip{
+    position: absolute;
+    top:120px;
+    left: 6%;
+    height: 400px;
+    width: 320px;
+}
+.tip-top{
+    height: 60%;
+    background-image: url(../img/弹层背景1.png);
+    background-size: 100%;
+}
+.tip-bottom{
+    height: 37%;
+    width: 100%;
+    background-image: url(../img/弹层背景2.png);
+    background-size: 100%;
+    box-sizing: border-box;
+    padding: 6px 0;
+    text-align: center;
+}
+.tip-bottom>p{
+    font-size: 10px;
+    color: #a7a7a7;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.tip-button{
+    background-color:#ff4431;
+    border: none;
+    color: white;
+    height: 40%;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
